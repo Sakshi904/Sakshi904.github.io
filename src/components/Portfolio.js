@@ -10,11 +10,11 @@ export default class Porfolio extends Component {
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
-              return(
+              return (
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                    <a href={`${item.imgurl}`}>
+                      <img src={`${item.imgurl}`} className="item-img" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
@@ -24,7 +24,7 @@ export default class Porfolio extends Component {
                     </a>
                   </div>
                 </div>
-              )
+              );
             })
           }
           </div>
