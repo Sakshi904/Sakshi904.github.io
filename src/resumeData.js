@@ -68,23 +68,23 @@ let resumeData = {
   ],
   portfolio: [
     {
-      name: "project1",
-      description: "mobileapp",
+      name: "Pomodero",
+      description: "Pomodero Countdown Timer",
       imgurl: "images/portfolio/coffee.jpg",
     },
     {
-      name: "project2",
-      description: "mobileapp",
+      name: "Random Image Gallery",
+      description: "Search for Random images",
       imgurl: "images/portfolio/console.jpg",
     },
     {
-      name: "project3",
-      description: "mobileapp",
+      name: "React router tabs",
+      description: "Tab based routing with ReactJS",
       imgurl: "images/portfolio/origami.jpg",
     },
     {
-      name: "project4",
-      description: "mobileapp",
+      name: "Rock Paper Scissors",
+      description: "Chance based game using React hooks",
       imgurl: "images/portfolio/judah.jpg",
     },
   ],
