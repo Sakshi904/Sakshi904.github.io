@@ -486,6 +486,8 @@ ul#nav li.current a { color: #F06000; }
    margin-top: -15px;
 }
 .portfolio-item .item-wrap img {
+
+  height: 30vh;
    vertical-align: bottom;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
